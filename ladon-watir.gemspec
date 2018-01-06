@@ -16,11 +16,11 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'ladon', '~> 1.0'
   s.add_runtime_dependency 'page-object', '2.2.4'
-  s.add_runtime_dependency 'selenium-webdriver', '3.6.0'
   s.add_runtime_dependency 'useragent', '~> 0.16.3'
-  s.add_runtime_dependency 'watir', '6.8.4'
+  s.add_runtime_dependency 'watir', '6.10.2'
 
   s.add_development_dependency 'bundler'
+  s.add_development_dependency 'ladon', '~> 1.0'
   s.add_development_dependency 'rake', '~> 11.3' # for convenient rake tasks
   s.add_development_dependency 'rspec', '~> 3.6' # for specs
   s.add_development_dependency 'rubocop', '~> 0.49' # for linting
